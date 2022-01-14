@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
-
-interface Todo {
-  title: string;
-}
+import { Todo } from '@acme/data';
 
 @Component({
   selector: 'acme-root',
